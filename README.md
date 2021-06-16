@@ -5,7 +5,19 @@ This repostiory contains the VGG16-FC2 feature vector data for
 [OpenImagesV4](https://storage.googleapis.com/openimages/web/download_v4.html),
 to be used with the
 [primo-similarity-search](https://github.com/uwmisl/primo-similarity-search)
-repository.
+repository among others.
 
-Should you wish to use the scripts in the above repository to download the
-images and metadata, there are directories provisioned for them here as well.
+Should you wish to downoad millions of images from FLICKR, run the scripts found in the directory, "01_datasets". Note that you might want to change the paths where these images are stored and can find the places to do so by globally searching for the phrase "For future users". This script takes several days to run.
+
+If you only want the feature vectors for the downloaded images, YOU DO NOT HAVE TO RUN ANY CODE. Simply download this repository and extract the following directories:
+
+- `extended_targets/features` (this holds ~9 million feature vectors)
+- `targets/features`          (this holds ~1.6 million feature vectors)
+- `train/features`            @callie- what are these?
+- `validation/features`       (this holds ~40 thousand feature vectors)
+
+
+## A visualization of the workflow
+You are currently in the "Open Images VGG" repository. Our intent is that most users will feel free to take the feature vectors and use them in their own work. Here, we show how the feature vectors are taken and used in various other MISL repositories.
+
+![Image here](https://github.com/uwmisl/primo-openimages/blob/master/documentation/Similarity_Search_Repository_Architecture.png)
