@@ -16,6 +16,7 @@ If you only want the feature vectors for the downloaded images, YOU DO NOT HAVE 
 - `train/features`            
 - `validation/features`       (this holds ~40 thousand feature vectors)
 
+Details can be found in the Bee et al. Nature Communications 2021 paper.
 
 ## A visualization of the workflow
 You are currently in the "primo-openimages" repository. Our intent is that most users will feel free to take the feature vectors and use them in their own work. Here, we show how the feature vectors are taken and used in another MISL repository.
