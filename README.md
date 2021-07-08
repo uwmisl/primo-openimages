@@ -18,6 +18,6 @@ If you only want the feature vectors for the downloaded images, YOU DO NOT HAVE 
 
 
 ## A visualization of the workflow
-You are currently in the "Open Images VGG" repository. Our intent is that most users will feel free to take the feature vectors and use them in their own work. Here, we show how the feature vectors are taken and used in various other MISL repositories.
+You are currently in the "primo-openimages" repository. Our intent is that most users will feel free to take the feature vectors and use them in their own work. Here, we show how the feature vectors are taken and used in another MISL repository.
 
-![Image here](https://github.com/uwmisl/primo-openimages/blob/master/githubcodeoverview.png)
+<img src="https://github.com/uwmisl/primo-openimages/blob/master/githubcodeoverview.png" width="300" height="400">
