@@ -13,7 +13,7 @@ If you only want the feature vectors for the downloaded images, YOU DO NOT HAVE 
 
 - `extended_targets/features` (this holds ~9 million feature vectors)
 - `targets/features`          (this holds ~1.6 million feature vectors)
-- `train/features`            @callie- what are these?
+- `train/features`            
 - `validation/features`       (this holds ~40 thousand feature vectors)
 
 
